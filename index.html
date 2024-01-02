@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <header>
+        <h1 id="page-title">Weather Forecast</h1>
+    </header>
+
+    <!-- search bar for input -->
+    <aside id="city-search-form">
+        <form id="city-search-bar">
+            <p>Enter City Here<p>
+            <input type="text" id="city-search-form"><br>
+            <input type="submit" id="search-btn">
+        </form>
+    </aside>
+
+    <!-- displays current city, date, and weather -->
+    <section id="current-city-container">
+        <div id="current-city"></div>
+    </section>
+
+
+    <!-- displays the 5 day forecast for the current city -->
+    <section id="five-day-forecast">
+        <div class="day-container" id="day-one"></div>
+        <div class="day-container" id="day-two"></div>
+        <div class="day-container" id="day-three"></div>
+        <div class="day-container" id="day-four"></div>
+        <div class="day-container" id="day-five"></div>
+    </section>
+
+
+    <script src="./assets/script.js"></script>
+    
+</body>
+</html>
+
+
+<!-- 
+GIVEN a weather dashboard with form inputs
+WHEN I search for a city
+
+create a form that accepts user input
+
+THEN I am presented with current and future conditions for that city and that city is added to the search history
+WHEN I view current weather conditions for that city
+THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, and the wind speed
+WHEN I view future weather conditions for that city
+THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
+WHEN I click on a city in the search history
+THEN I am again presented with current and future conditions for that city
+ -->

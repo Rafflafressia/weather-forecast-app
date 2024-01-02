@@ -1,0 +1,73 @@
+body {
+    margin: auto;
+    padding: 0px;
+}
+
+p {
+    margin:auto;
+    padding: 5px 0px;
+}
+
+.day-container {
+    width:163px; 
+    height:244px;
+    margin: 10px;
+    border-radius: 5px;
+    justify-content: center;
+    flex-direction: row;
+    background-color: darkcyan;
+}
+
+#five-day-forecast {
+    float: left; 
+    margin: auto;
+    padding: 5px;
+    display: flex;
+}
+
+#page-title {
+    margin:auto;
+    padding: 10px;
+    text-align: center;
+    background-color: darkslategray;
+    color: white;
+}
+
+#city-search-form {
+    width: 95%;
+    align-items: center;
+}
+
+#city-search-bar {
+    float:left; 
+    margin: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+    width: 250px;
+    height: 500px;
+}
+
+#current-city-container {
+    margin: 10px; 
+    float: left;
+    border: 1px solid black;
+    width: 900px; 
+    height: 250px; 
+    border-radius: 5px;
+}
+
+#search-btn {
+    background-color: cadetblue;
+    color: white;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 5px;
+    width:100%; 
+    align-items: center;
+}
