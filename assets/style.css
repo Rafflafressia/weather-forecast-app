@@ -12,12 +12,12 @@ h1 {
     margin: 10px 0px;
 }
 
-p {
+p, h3 {
     margin: 10px ;
     padding: 10px; 
 }
 
-ul {
+.futureForecast {
     list-style: none;
     display: flex;
     margin:auto;
@@ -26,12 +26,15 @@ ul {
     align-items: center;
 }
 
-li {
+/* li {
+    font-size: 13px;
+    margin: auto; 
+    padding: 10px; 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-}
+    align-items: left;
+} */
 
 .day {
     border: 1px solid white;
@@ -86,7 +89,7 @@ li {
     display:flex;
     color: white;
     margin:0px 325px;
-    padding:60px;
+    padding:30px;
     left:110px;
     width:65%;
     justify-content:left;

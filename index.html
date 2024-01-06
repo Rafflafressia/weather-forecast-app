@@ -6,6 +6,12 @@
     <title>Weather Forecast</title>
     <link rel="stylesheet" href="./assets/reset.css">
     <link rel="stylesheet" href="./assets/style.css">  
+    <script
+      src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+      integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
+      crossorigin="anonymous"
+    ></script>
+
 </head>
 <body>
 
@@ -30,7 +36,6 @@
 
     <!-- displays the current weather for the searched city -->
     <div class="current-weather">
-        <i class="fas fa-band-aid"></i>
         <h1 class="city-name">(__________)</h1>
         <p class="temp">Temp:(__________)</p>
         <p class="humidity">Humidity:(__________)</p>
@@ -43,8 +48,8 @@
         <h1>5 Day Forecast</h1>
 
     <!-- Display 5 Day Weather Cards -->
-        <ul class="futureForecast">
-        </ul>
+        <div class="futureForecast">
+        </div>
 
     </div>
 
