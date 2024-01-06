@@ -4,40 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Forecast</title>
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/reset.css">
+    <link rel="stylesheet" href="./assets/style.css">  
 </head>
 <body>
-    <header>
-        <h1 id="page-title">Weather Forecast</h1>
-    </header>
 
-    <!-- search bar for input -->
-    <aside id="city-search-form">
-        <form id="city-search-bar">
-            <p>Enter City Here<p>
-            <input type="text" id="city-search-form"><br>
-            <input type="submit" id="search-btn">
-        </form>
+<section>
+    
+    <aside class="weather-search">
+
+        <!-- The Search Bar -->
+        <div class="search-bar">
+            <h1>Enter City Name</h1>
+            <input type="text" class="search-box" placeholder="e.g London">
+            <button class="search-button">Search</button>
+        </div>
+
+        <!-- Search History -->
+        <div class="history"> 
+            <p>or</p>
+        </div>
+        
+        <button>submit</button>
     </aside>
 
-    <!-- displays current city, date, and weather -->
-    <section id="current-city-container">
-        <div id="current-city"></div>
-    </section>
+    <!-- displays the current weather for the searched city -->
+    <div class="current-weather">
+        <i class="fas fa-band-aid"></i>
+        <h1 class="city-name">City Name</h1>
+        <p class="temp">Temp:40°C</p>
+        <p class="humidity">Humidity:49</p>
+        <p class="winds">Winds:6</p>
+    </div>
 
+    <!-- displays five day forecast for the searched city -->
+    <div class="five-day-forecast">
 
-    <!-- displays the 5 day forecast for the current city -->
-    <section id="five-day-forecast">
-        <div class="day-container" id="day-one"></div>
-        <div class="day-container" id="day-two"></div>
-        <div class="day-container" id="day-three"></div>
-        <div class="day-container" id="day-four"></div>
-        <div class="day-container" id="day-five"></div>
-    </section>
+        <h1>5 Day Forecast</h1>
 
+    <!-- Display 5 Day Weather Cards -->
+        <ul>
+            <li>
+                <div class="day">
+                    <p>Day 1</p>
+                    <p>Temp:</p>
+                    <p>Humidity:</p>
+                    <p>Winds:</p>
+                </div>
+                
+            </li>
+            <li>
+                <div class="day two">
+                    <p>Day 1</p>
+                    <p>Temp:</p>
+                    <p>Humidity:</p>
+                    <p>Winds:</p>
+                </div>
+            </li>
+            <li>
+                <div class="day three">
+                    <p>Day 1</p>
+                    <p>Temp:</p>
+                    <p>Humidity:</p>
+                    <p>Winds:</p>
+                </div>
+            </li>
+            <li>
+                <div class="day four">
+                    <p>Day 1</p>
+                    <p>Temp:</p>
+                    <p>Humidity:</p>
+                    <p>Winds:</p>
+                </div>
+            </li>
+            <li>
+                <div class="day five">
+                    <p>Day 1</p>
+                    <p>Temp:</p>
+                    <p>Humidity:</p>
+                    <p>Winds:</p>
+                </div>
+            </li>
+        </ul>
 
-    <script src="./assets/script.js"></script>
-    
+    </div>
+
+</section> 
+
+<script src="./assets/script.js"></script>
+
 </body>
 </html>
 
