@@ -28,7 +28,7 @@ THEN I am again presented with current and future conditions for that city
 https://rafflafressia.github.io/weather-forecast-app/
 
 ## Capture of working program
-![screenshot of deployed program](deployment-screenshot.png)
+![screenshot of deployed program](./assets/deployment-screenshot.png)
 
 # Installation
 N/A
